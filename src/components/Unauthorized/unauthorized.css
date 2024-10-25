@@ -1,0 +1,29 @@
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.section .error {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 150px;
+  color: #096dd9;
+  text-shadow:
+    1px 1px 1px #91d5ff,
+    2px 2px 1px #91d5ff,
+    3px 3px 1px #91d5ff,
+    4px 4px 1px #91d5ff,
+    5px 5px 1px #91d5ff,
+    6px 6px 1px #91d5ff,
+    7px 7px 1px #91d5ff,
+    8px 8px 1px #91d5ff,
+    25px 25px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page {
+  margin: 2rem 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fe1f1f;
+}

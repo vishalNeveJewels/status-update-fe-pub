@@ -1,0 +1,22 @@
+export const rows = [
+  { code: 'PPOL3', description: 'Platinum Polish3 Loc' },
+  { code: 'PCAD', description: 'Cad Model Location' },
+  { code: 'PCAS', description: 'Casting Location' },
+  { code: 'PRHD', description: 'Rhodium Location' },
+  { code: 'PFAC', description: 'Fancy Dia Location' },
+  { code: 'PJOB1', description: 'Job Work 1 Seepz Loc' },
+  { code: 'PWDIA', description: 'Wax Set Dia Pending' },
+  { code: 'PCAN', description: 'Order Cancel Location' },
+  { code: 'PWAP', description: 'Wax pulling Location' },
+  { code: 'PFIL', description: 'Filing Location' },
+  { code: 'PHOLD', description: 'On Hold Location' },
+  { code: 'PPRP', description: 'Pre Polish Location' },
+  { code: 'PGRD', description: 'Grinding Location' },
+  { code: 'PPLN', description: 'Planning Location' },
+  { code: 'PSET', description: 'Setting Location' },
+  { code: 'PDIA', description: 'Diamond Location' },
+  { code: 'PFG', description: 'Fg Location for Bag' },
+  { code: 'POFIL', description: 'Otec Filing Location' },
+  { code: 'PPOL', description: 'Polish Location' },
+  { code: 'PPOL2', description: 'Polish 2 Location' }
+];

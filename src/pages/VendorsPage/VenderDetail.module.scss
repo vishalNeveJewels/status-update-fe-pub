@@ -1,0 +1,19 @@
+.venderDetailContainer {
+  padding: 16px; // Padding inside the card
+  background-color: #ffffff; // Card background color
+  border-radius: 8px; // Rounded corners
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+}
+
+.venderDetailTypography {
+  cursor: pointer; // Pointer cursor to indicate interactivity
+  color: #666666; // Text color
+  margin-bottom: 8px; // Space between items
+  font-weight: 500; // Set font weight to make text bolder
+  transition: color 0.2s; // Smooth color transition
+
+  &:hover {
+    text-decoration: underline; // Underline on hover
+    color: #000000; // Darker color on hover
+  }
+}
