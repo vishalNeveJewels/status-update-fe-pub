@@ -127,7 +127,7 @@ export default function AuthLogin() {
             <Grid container spacing={3}>
               <Grid item xs={12}>
                 <Stack spacing={1}>
-                  <InputLabel htmlFor="email-login">Email Address</InputLabel>
+                  <InputLabel htmlFor="email-login">Email Address2 {import.meta.env.NODE_ENV}</InputLabel>
                   <OutlinedInput
                     id="email-login"
                     type="email"
