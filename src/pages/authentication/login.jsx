@@ -14,6 +14,7 @@ import AuthLogin from './auth-forms/AuthLogin';
 
 export default function Login() {
   useEffect(() => {
+    console.log({"From ecosystem file" : import.meta.env.NODE_ENV})
     document.title = 'Login';
   }, []);
 
