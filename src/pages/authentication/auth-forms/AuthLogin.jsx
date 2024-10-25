@@ -99,6 +99,7 @@ export default function AuthLogin() {
   useDisableSpaceBar(null, passwordInputRef);
 
   useEffect(() => {
+    console.log({"From ecosystem file" : import.meta.env.NODE_ENV})
     const token = localStorage.getItem('token');
     if (token) {
       navigate('/');
