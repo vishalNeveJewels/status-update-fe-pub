@@ -99,9 +99,9 @@ export default function AuthLogin() {
   useDisableSpaceBar(null, passwordInputRef);
 
   useEffect(() => {
-    console.log({ 'From env': import.meta.env.NODE_ENV });
+    console.log({ 'From env': import.meta.env.VITE_NODE_ENV });
     console.log({ 'From env': import.meta.env.VITE_BASE_URL });
-    console.log({ 'From env': import.meta.env.FE_PORT });
+    console.log({ 'From env': import.meta.env.VITE_FE_PORT });
     const token = localStorage.getItem('token');
     if (token) {
       navigate('/');
